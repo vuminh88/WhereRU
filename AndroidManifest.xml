@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ntu.whereRU"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name=".UI.HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.NearbyFriendsListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".UI.ExploreListAtivity" >
+        </activity>
+        <activity android:name=".UI.ProfileActivity" >
+        </activity>
+        <service
+            android:name=".skeleton.data.service.SkeletonService"
+            android:exported="false" />
+
+        <provider
+            android:name=".skeleton.data.provider.SkeletonProvider"
+            android:authorities="com.ntu.whereru.data.provider.skeletonprovider"
+            android:exported="false" />
+    </application>
+
+</manifest>

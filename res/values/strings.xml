@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, HomeActivity!</string>
+    <string name="app_name">Where Are U?</string>
+    <string name="text_check_in">CHECK IN</string>
+    <string name="app_header">Where RU</string>
+    <string name="friend_list_tv_empty">No friends activity found</string>
+    <string name="dialog_error_connection_error_title">Connection error</string>
+    <string name="dialog_error_connection_error_message">A connection error occured. Please verify that you are connected to an Edge, 3G or Wifi network.</string>
+    <string name="dialog_error_data_error_title">Incorrect data</string>
+    <string name="dialog_error_data_error_message">Received data are invalid.</string>
+    <string name="dialog_button_retry">Retry</string>
+    <string name="progress_dialog_title">Loading</string>
+    <string name="progress_dialog_message">Loading in progress...</string>
+
+</resources>
