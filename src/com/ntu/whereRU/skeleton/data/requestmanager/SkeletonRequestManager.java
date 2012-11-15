@@ -247,11 +247,4 @@ public class SkeletonRequestManager extends RequestManager {
 		return requestID;
 	}
 
-	/**
-	 * Here begin the special methods
-	 */
-
-	// TODO : This is where you will add your methods which will call the
-	// service
-
 }
